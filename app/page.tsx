@@ -176,17 +176,17 @@ const contactActions = [
   {
     title: "Join or Volunteer",
     text: "Tell the council how you or your house of worship would like to participate.",
-    href: "mailto:ftic110@gmail.com?subject=Volunteer%20with%20FTIC",
+    href: "mailto:info@franklintwpinterfaith.org?subject=Volunteer%20with%20FTIC",
   },
   {
     title: "Become a Partner",
     text: "Share your organization name, website, clergy contact, and message of unity.",
-    href: "mailto:ftic110@gmail.com?subject=Partner%20with%20FTIC",
+    href: "mailto:info@franklintwpinterfaith.org?subject=Partner%20with%20FTIC",
   },
   {
     title: "Community Coordination",
     text: "Reach out about interfaith support, community resources, or urgent coordination needs.",
-    href: "mailto:ftic110@gmail.com?subject=Community%20coordination%20request",
+    href: "mailto:info@franklintwpinterfaith.org?subject=Community%20coordination%20request",
   },
 ];
 
@@ -360,7 +360,7 @@ export default function Home() {
             </div>
             <a
               className="button secondary on-dark"
-              href="mailto:ftic110@gmail.com?subject=Partner%20with%20FTIC"
+              href="mailto:info@franklintwpinterfaith.org?subject=Partner%20with%20FTIC"
             >
               Become a partner
             </a>
@@ -439,7 +439,9 @@ export default function Home() {
           </div>
           <div className="contact-footer">
             <span>Public contact email</span>
-            <a href="mailto:ftic110@gmail.com">ftic110@gmail.com</a>
+            <a href="mailto:info@franklintwpinterfaith.org">
+              info@franklintwpinterfaith.org
+            </a>
           </div>
         </div>
       </section>
