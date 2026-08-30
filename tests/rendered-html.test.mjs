@@ -38,6 +38,9 @@ test("renders the FTIC rebuilt homepage", async () => {
   assert.match(html, /Rev\. Sonya Redd/);
   assert.match(html, /Rabbi Eli L\. Garfinkel/);
   assert.match(html, /ftic110@gmail\.com/);
+  assert.doesNotMatch(html, /href="#donate"/);
+  assert.doesNotMatch(html, />Donate</);
+  assert.doesNotMatch(html, /Contact us about giving/);
   assert.doesNotMatch(html, /Leadership details from the old website/);
   assert.doesNotMatch(html, /The old website included event announcements/);
   assert.doesNotMatch(html, /codex-preview/);
