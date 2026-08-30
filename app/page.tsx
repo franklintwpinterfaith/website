@@ -4,7 +4,6 @@ const navigation = [
   { label: "Partners", href: "#partners" },
   { label: "Resources", href: "#resources" },
   { label: "News & Events", href: "#news" },
-  { label: "Donate", href: "#donate" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -419,42 +418,15 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section donate-section" id="donate">
-        <div className="section-inner donate-layout">
-          <div className="donate-copy">
-            <p className="eyebrow">Donate</p>
-            <h2>Support work that turns shared values into practical help.</h2>
-            <p>
-              With community support, FTIC previously donated funds to the
-              Franklin Food Bank and helped distribute protective supplies to
-              local families. Future giving should continue strengthening
-              humanitarian service, interfaith connection, and community
-              readiness.
-            </p>
-            <a
-              className="button primary"
-              href="mailto:ftic110@gmail.com?subject=Donation%20support%20for%20FTIC"
-            >
-              Contact us about giving
-            </a>
-          </div>
-          <figure className="impact-figure">
-            <img
-              src="/ftic-food-bank-impact.jpg"
-              alt="Franklin Food Bank community support photo from prior FTIC impact work"
-            />
-            <figcaption>
-              Prior community support for food security and local families.
-            </figcaption>
-          </figure>
-        </div>
-      </section>
-
       <section className="section contact-section" id="contact">
         <div className="section-inner">
           <div className="section-heading compact">
             <p className="eyebrow">Contact</p>
             <h2>Reach the council, volunteer, or start a partnership.</h2>
+            <p className="section-note">
+              Connect with FTIC to join the work, share a community need, or
+              begin a conversation between houses of worship.
+            </p>
           </div>
           <div className="contact-grid">
             {contactActions.map((action) => (

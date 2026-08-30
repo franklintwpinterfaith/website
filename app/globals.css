@@ -279,8 +279,7 @@ p {
 }
 
 .split,
-.two-column,
-.donate-layout {
+.two-column {
   display: grid;
   grid-template-columns: minmax(260px, 0.78fr) minmax(320px, 1fr);
   gap: clamp(30px, 5vw, 66px);
@@ -590,39 +589,6 @@ p {
   line-height: 1.55;
 }
 
-.donate-section {
-  background: var(--white);
-}
-
-.donate-copy p:not(.eyebrow) {
-  max-width: 610px;
-  margin: 20px 0 26px;
-  font-size: 1.08rem;
-}
-
-.impact-figure {
-  margin: 0;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: var(--white);
-  box-shadow: var(--shadow);
-  overflow: hidden;
-}
-
-.impact-figure img {
-  width: 100%;
-  aspect-ratio: 1.9 / 1;
-  object-fit: cover;
-}
-
-.impact-figure figcaption {
-  color: var(--slate);
-  font-size: 0.94rem;
-  font-weight: 700;
-  line-height: 1.4;
-  padding: 14px 16px;
-}
-
 .contact-section {
   background: var(--background);
 }
@@ -701,8 +667,7 @@ p {
 
   .hero,
   .split,
-  .two-column,
-  .donate-layout {
+  .two-column {
     grid-template-columns: 1fr;
   }
 
