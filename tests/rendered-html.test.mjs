@@ -45,6 +45,7 @@ test("renders the FTIC rebuilt homepage", async () => {
   assert.doesNotMatch(html, /Leadership details from the old website/);
   assert.doesNotMatch(html, /The old website included event announcements/);
   assert.doesNotMatch(html, /codex-preview/);
+  assert.match(html, /<span>Email<\/span>/);
   assert.doesNotMatch(html, /react-loading-skeleton/);
   assert.doesNotMatch(html, /July 31, 2024/);
 });
