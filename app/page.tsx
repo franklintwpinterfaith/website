@@ -438,7 +438,7 @@ export default function Home() {
             ))}
           </div>
           <div className="contact-footer">
-            <span>Public contact email</span>
+            <span>Email</span>
             <a href="mailto:info@franklintwpinterfaith.org">
               info@franklintwpinterfaith.org
             </a>
